@@ -1,0 +1,38 @@
+
+
+/*mobile*/
+@media(max-width : 767px ) {
+ .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+}
+
+/* small screens */
+@media ( min-width : 768px ){
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+     }
+}
+
+/* medium sreens */
+@media ( min-width : 992px ){
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+}
+
+/* large screens */
+@media ( min-width : 1200px ){
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+}
